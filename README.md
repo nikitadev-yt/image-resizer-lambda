@@ -17,13 +17,15 @@ Install Dependencies
 npm install --arch=x64 --platform=linux --target=16x sharp
 ```
 
-Update Constants
+## Environment Variables
+
+Remember set the `DEST_BUCKET` in your Lambda's "Configuration" tab. To do this, open your Lambda in the AWS Console, select the "Configuration" tab, then click "Environment variables"
 
 ```bash
-npm install --arch=x64 --platform=linux --target=16x sharp
+DEST_BUCKET=thumbnails-bucket-name
 ```
 
-Deployment
+## Deployment
 
 ```bash
 npm run package
