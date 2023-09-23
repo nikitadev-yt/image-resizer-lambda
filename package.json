@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "zip -r function.zip ."
+    "package": "zip -r function.zip ."
   },
   "keywords": [],
   "author": "",
